@@ -1,0 +1,98 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Specific Styles */
+  
+  #home {
+    background-image: url('home-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  #home h2 {
+    font-size: 36px;
+  }
+  
+  #membership ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #reservations p:last-child,
+  #tournaments p:last-child,
+  #community p:last-child,
+  #coaching p:last-child,
+  #gallery p:last-child,
+  #contact p:last-child {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    #home {
+      padding: 100px 0;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  }
+  
